@@ -1,18 +1,18 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import sdk.serialization.model.SubmissionResult;
-import serialization.sdk.solutionA;
-import serialization.sdk.assignmentA;
+import serialization.nsdk.SubmissionResult;
+import serialization.nsdk.AssignmentA;
+import serialization.nsdk.SolutionA;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class assignmentATests {
 
-    private assignmentA solution;
+    private AssignmentA solution;
 
     @BeforeEach
     public void before() {
-        solution = new solutionA();
+        solution = new SolutionA();
     }
 
     @Test

@@ -2,8 +2,8 @@ package serialization.sdk;
 
 import sdk.serialization.model.SubmissionResult;
 
-public interface assignmentB {
+public interface AssignmentC {
 
-    SubmissionResult solutionB();
+    SubmissionResult solutionC();
 
 }
