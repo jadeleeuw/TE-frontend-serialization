@@ -6,7 +6,7 @@ import com.mashape.unirest.http.Unirest;
 
 import java.io.IOException;
 
-public class Solution {
+public abstract class Solution {
 
     public Solution() {
         initUnirest();
