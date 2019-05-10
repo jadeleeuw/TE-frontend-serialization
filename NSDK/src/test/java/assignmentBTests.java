@@ -9,14 +9,16 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class assignmentBTests {
 
     private AssignmentB solution;
+    private SubmissionResult submissionResult;
 
     @BeforeEach
     public void before() {
         solution = new SolutionB();
+        submissionResult = new SubmissionResult(true, "");
     }
 
     @Test
     public void passesBTest() {
-        assertEquals(SubmissionResult.CORRECT, solution.solutionB());
+        assertEquals(submissionResult, solution.solutionB());
     }
 }
