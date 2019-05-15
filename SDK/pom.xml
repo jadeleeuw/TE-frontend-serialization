@@ -15,7 +15,7 @@
         <dependency>
             <groupId>com.github.jadeleeuw</groupId>
             <artifactId>TE-jitpack-serialization</artifactId>
-            <version>v1.19</version>
+            <version>v1.20</version>
             <exclusions>
                 <exclusion>
                     <groupId>io.projectreactor</groupId>
