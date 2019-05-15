@@ -2,33 +2,32 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import serialization.nsdk.SubmissionResult;
 import serialization.nsdk.AssignmentA;
-import serialization.nsdk.SolutionA;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class assignmentATests {
 
-    private AssignmentA solution;
+    private AssignmentA assignment;
     private SubmissionResult submissionResult;
 
     @BeforeEach
     public void before() {
-        solution = new SolutionA();
+        assignment = new AssignmentA();
         submissionResult = new SubmissionResult(true, "");
     }
 
     @Test
     public void passesA1Test() {
-        assertEquals(submissionResult, solution.solutionA1());
+        assertEquals(submissionResult, assignment.solutionA1());
     }
 
     @Test
     public void passesA2Test() {
-        assertEquals(submissionResult, solution.solutionA2());
+        assertEquals(submissionResult, assignment.solutionA2());
     }
 
     @Test
     public void passesA3Test() {
-        assertEquals(submissionResult, solution.solutionA3());
+        assertEquals(submissionResult, assignment.solutionA3());
     }
 }

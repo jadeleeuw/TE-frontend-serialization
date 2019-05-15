@@ -1,13 +1,6 @@
 package serialization.nsdk;
 
-public class SolutionB extends Solution implements AssignmentB {
+public interface SolutionB {
 
-    // Enter your identification key here
-    private final int ID_KEY = ;
-
-    // Implement assignment B here
-    @Override
-    public SubmissionResult solutionB() {
-        return null;
-    }
+    SubmissionResult solutionB();
 }

@@ -1,13 +1,6 @@
 package serialization.nsdk;
 
-public class SolutionC extends Solution implements AssignmentC {
+public interface SolutionC {
 
-    // Enter your identification key here
-    private final int ID_KEY = ;
-
-    // Implement assignment C here
-    @Override
-    public SubmissionResult solutionC() {
-        return null;
-    }
+    SubmissionResult solutionC();
 }
