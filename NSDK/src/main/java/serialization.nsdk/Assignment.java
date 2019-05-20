@@ -11,7 +11,8 @@ public abstract class Assignment {
     public Assignment() {
         initUnirest();
     }
-
+    
+    // This initializes Unirest, making (de)serialization of objects possible. You don't have to touch this.
     private void initUnirest() {
         Unirest.setObjectMapper(new ObjectMapper() {
             private com.fasterxml.jackson.databind.ObjectMapper jacksonObjectMapper
