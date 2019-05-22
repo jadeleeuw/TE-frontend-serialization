@@ -1,6 +1,6 @@
 package serialization.nsdk;
 
-public class AssignmentC extends Assignment implements SolutionC {
+public class OptionalAssignmentC extends Assignment implements SolutionC {
 
     // Enter your identification key here
     private final int ID_KEY = ;

@@ -1,18 +1,18 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import sdk.serialization.model.SubmissionResult;
-import serialization.sdk.AssignmentC;
+import serialization.sdk.OptionalAssignmentC;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AssignmentCTests {
 
-    private AssignmentC assignment;
+    private OptionalAssignmentC assignment;
     private SubmissionResult submissionResult;
 
     @BeforeEach
     public void before() {
-        assignment = new AssignmentC();
+        assignment = new OptionalAssignmentC();
         submissionResult = new SubmissionResult();
         submissionResult.setCorrect(true);
         submissionResult.setReason("");

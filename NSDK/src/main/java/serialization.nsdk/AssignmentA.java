@@ -17,10 +17,4 @@ public class AssignmentA extends Assignment implements SolutionA {
         return null;
     }
 
-    // Implement assignment A1 here
-    @Override
-    public SubmissionResult solutionA3() {
-        return null;
-    }
-
 }

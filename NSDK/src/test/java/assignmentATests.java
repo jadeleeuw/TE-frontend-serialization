@@ -26,8 +26,4 @@ public class assignmentATests {
         assertEquals(submissionResult, assignment.solutionA2());
     }
 
-    @Test
-    public void passesA3Test() {
-        assertEquals(submissionResult, assignment.solutionA3());
-    }
 }

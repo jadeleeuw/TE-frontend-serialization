@@ -35,9 +35,4 @@ public class AssignmentA implements SolutionA {
         return null;
     }
 
-    // Implement assignment A3 here
-    @Override
-    public SubmissionResult solutionA3() {
-        return null;
-    }
 }

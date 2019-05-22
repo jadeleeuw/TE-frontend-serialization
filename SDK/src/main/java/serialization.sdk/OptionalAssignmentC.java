@@ -6,7 +6,7 @@ import sdk.serialization.api.WarehouseApi;
 import sdk.serialization.api.WebstoreApi;
 import sdk.serialization.model.*;
 
-public class AssignmentC implements SolutionC {
+public class OptionalAssignmentC implements SolutionC {
 
     private AssignmentCApi assignmentAPI;
     private WarehouseApi warehouseAPI;
@@ -15,7 +15,7 @@ public class AssignmentC implements SolutionC {
     // Enter your identification key here
     private final int ID_KEY = ;
 
-    public AssignmentC() {
+    public OptionalAssignmentC() {
         ApiClient client =  new ApiClient();
         client.setApiKey(String.valueOf(ID_KEY));
         this.assignmentAPI = new AssignmentCApi(client);
